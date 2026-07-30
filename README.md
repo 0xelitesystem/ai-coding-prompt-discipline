@@ -13,20 +13,20 @@ This repo covers the defensive side: how to keep the AI from making things worse
 ## Contents
 
 - `README.md` (this file)
-- `01-push-back-prompts.md`: getting the AI to disagree with you when you're wrong
-- `02-scope-discipline-prompts.md`: preventing feature creep
-- `03-no-bloat-prompts.md`: cutting verbose code and over-abstraction
-- `04-requirements-extraction.md`: forcing the AI to ask before assuming
-- `05-anti-slop-checklist.md`: hard rules to copy-paste into every project
-- `06-rejection-templates.md`: how to reject AI suggestions without making it worse
-- `07-context-priming.md`: context block templates that produce better output
-- `08-debugging-discipline.md`: structured debugging without rabbit holes
-- `09-review-prompts.md`: structured code review prompts
-- `10-anti-patterns.md`: the things users do that produce bad AI output
+- [01-push-back-prompts.md](01-push-back-prompts.md): getting the AI to disagree with you when you're wrong
+- [02-scope-discipline-prompts.md](02-scope-discipline-prompts.md): preventing feature creep
+- [03-no-bloat-prompts.md](03-no-bloat-prompts.md): cutting verbose code and over-abstraction
+- [04-requirements-extraction.md](04-requirements-extraction.md): forcing the AI to ask before assuming
+- [05-anti-slop-checklist.md](05-anti-slop-checklist.md): hard rules to copy-paste into every project
+- [06-rejection-templates.md](06-rejection-templates.md): how to reject AI suggestions without making it worse
+- [07-context-priming.md](07-context-priming.md): context block templates that produce better output
+- [08-debugging-discipline.md](08-debugging-discipline.md): structured debugging without rabbit holes
+- [09-review-prompts.md](09-review-prompts.md): structured code review prompts
+- [10-anti-patterns.md](10-anti-patterns.md): the things users do that produce bad AI output
 
 ## How to use
 
-1. Read `05-anti-slop-checklist.md` first; it's the standing ruleset.
+1. Read [05-anti-slop-checklist.md](05-anti-slop-checklist.md) first; it's the standing ruleset.
 2. Pick the file matching your current problem.
 3. Adapt the prompts to your stack and project conventions.
 4. Save the ones that work to your own AGENTS.md or CLAUDE.md or similar.
@@ -48,6 +48,10 @@ The prompts in this repo counter each of these defaults specifically.
 - [ai-coding-prompt-recipes](https://github.com/0xelitesystem/ai-coding-prompt-recipes): the affirmative side
 - [readme-slop-checker](https://github.com/0xelitesystem/readme-slop-checker): catch AI slop in generated READMEs
 - [ai-citability-scorer](https://github.com/0xelitesystem/ai-citability-scorer): catch AI slop in generated prose
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
